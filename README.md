@@ -1,10 +1,10 @@
-# Project Title
+# CHINGUNBOT 23
 
-Simple overview of use/purpose.
+This AI Chatbot will be used to help the user and assist them with any errors or problems they may have in their code.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+We are building an AI Chatbot that is designed to have conversations with us. The Chatbot will be able to help us with any errors or problems in our code and can provide solutions to the errors. As well as asnwering our questions it should be able to ask us questions and give us any recommendations it has to improve our code.
 
 ## Getting Started
 
@@ -37,8 +37,8 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-ex. Mr Jones
-ex. [@benpaddlejones](https://github.com/benpaddlejones)
+ex. Chingun Sodnombaljir
+ex. [https://github.com/Chingun24]
 
 ## Version History
 
