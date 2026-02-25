@@ -23,31 +23,6 @@ def home():
     return render_template("index.html")
 
 
-@app.route("/chat", methods=["POST"])
-def chat():
-    """Handle chat messages and return bot responses."""
-    # Get the message from the request
-    data = request.get_json()
-    user_message = data.get("message", "")
-
-    # Basic input validation
-    if not user_message:
-        return jsonify({"response": "Please enter a message!"})
-
-    if len(user_message) > 500:
-        return jsonify(
-            {"response": "Message too long! Please keep it under 500 characters."}
-        )
-
-    # Get the chatbot's response
-    bot_response = chatbot.get_response(user_message)
-
-    return jsonify({"response": str(bot_response)})
-
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
-
 # Safety: Keywords that should trigger a mental health response
 CRISIS_KEYWORDS = [
     "suicide",
