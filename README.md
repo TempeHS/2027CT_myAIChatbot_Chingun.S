@@ -15,6 +15,24 @@ We are building an AI Chatbot that is designed to have conversations with us. Th
 
 ### Installing
 
+## Testing
+
+### User Acceptance Testing Results
+
+Tested on: [DATE]
+Tester: [YOUR NAME]
+
+| Test ID | Description               | Status  |
+| ------- | ------------------------- | ------- |
+| TC-001  | Normal message response   | ✅ Pass |
+| TC-002  | Empty message handling    | ✅ Pass |
+| TC-003  | Message length validation | ✅ Pass |
+| TC-004  | Crisis keyword detection  | ✅ Pass |
+| TC-005  | Disclaimer visibility     | ✅ Pass |
+| TC-006  | Message styling           | ✅ Pass |
+
+**Summary**: All 6 test cases passed. The chatbot meets all functional and non-functional requirements.
+
 - How/where to download your program
 - Any modifications needed to be made to files/folders
 
